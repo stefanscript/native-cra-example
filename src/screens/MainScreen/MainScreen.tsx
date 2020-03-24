@@ -9,14 +9,15 @@ interface Props {
 }
 
 const MainScreen = ({navigation}: Props) => {
-  const handlePress = () => {
-    navigation.navigate('LoginScreen');
+  const handlePressSettings = () => {
+    navigation.navigate('SettingsScreen');
   };
   return (
     <View>
       <Text>Main Screen</Text>
-      <TouchableOpacity onPress={handlePress}>
-        <Text>Go to Login</Text>
+
+      <TouchableOpacity onPress={handlePressSettings}>
+        <Text>Settings</Text>
       </TouchableOpacity>
     </View>
   );
