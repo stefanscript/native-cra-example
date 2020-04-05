@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:coolapp.xcodeproj">
+      location = "group:/Users/stefan/work/native/native-cra-example/ios/Running Pace.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

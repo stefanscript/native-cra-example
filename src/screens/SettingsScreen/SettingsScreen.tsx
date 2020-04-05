@@ -62,6 +62,7 @@ const styles = StyleSheet.create({
   },
   titleBox: {
     backgroundColor: '#f99d82',
+    height: 30,
   },
   title: {
     fontSize: 24,
